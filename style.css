@@ -10,7 +10,9 @@ header>a{margin-right:7px}
 h1{text-align:center}
 a,a:active{color:white}
 a:visited,a:hover{color:#aaa}
-table{border-collapse:collapse;display:block;overflow-x:scroll}
+
+table{border-collapse:collapse;display:block;overflow-x:scroll;-ms-overflow-style:none;scrollbar-width:none}
+table::-webkit-scrollbar{display:none}
 tr:nth-child(even){background-color:#292929}
 th,td{border:1px solid #fff;padding:8px}
 
